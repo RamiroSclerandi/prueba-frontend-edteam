@@ -1,0 +1,82 @@
+/* Carta de resultados */
+.card {
+    width: 22rem;
+    background-color: #1E1E1E;
+    color: #FFF;
+    padding: 20px 10px;
+    border-radius: 8px;
+    margin: 0 auto 1rem;
+    text-align: center;
+}
+
+/* Carta de personaje en lista de favs */
+.favorite-cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}   
+
+/* Imagen de la carta*/
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Nombre del personaje */
+.card-body h5 {
+    display: inline-block;
+    width: 75%;
+    font-size: 1.5rem;
+    color: #FFEB3B;
+}
+
+/* id del personaje*/
+.card-body span {
+    display: inline-block;
+    text-align: right;
+    width: 25%;
+}
+
+/* Descripción del personaje */
+.card-body p {
+    color: #CCCCCC;
+}
+  
+/* Botón Agregar a favoritos */
+button.add-favorites {
+    background-color: #ED1D24;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+  
+button.add-favorites:hover {
+    background-color: #B7181E;
+}
+  
+/* Botones de Modificar y Eliminar en favoritos */
+button.modify, button.delete {
+    background-color: #6C757D;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 4px;
+}
+  
+button.modify:hover {
+    background-color: #5A6268;
+}
+  
+button.delete {
+    background-color: #dc3545;
+}
+  
+button.delete:hover {
+    background-color: #c82333;
+}

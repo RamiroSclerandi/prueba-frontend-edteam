@@ -1,0 +1,37 @@
+/* Formulario de búsqueda */
+.search-form {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+/* Estilo del label */
+.search-form label {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Estilo del input */
+.search-form input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Botón de búsqueda */
+.search-form .search-button {
+  background-color: #ea050d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-form .search-button:hover {
+  background-color: #B7181E;
+}
